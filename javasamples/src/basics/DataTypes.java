@@ -12,7 +12,8 @@ public class DataTypes {
          @author : John
       **/
 
-         public static void main(String[] args) {
+         @SuppressWarnings("unused")
+        public static void main(String[] args) {
             /* primitive types
                 1. byte
                 2. short

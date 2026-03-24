@@ -6,51 +6,27 @@ public class Conditions {
           @SuppressWarnings("unused")
               public static void main(String[] args) {
           //  using the user input
-        Scanner sc  = new Scanner(System.in);
-        System.out.print("Enter your Age: ");
-        int age = sc.nextInt();
-        if(age>= 18){
-            System.out.println("You can Vote");
-        }else{
-            System.out.println("You cannot Vote");
-
+         Scanner input = new Scanner(System.in);
+        System.out.print("Enter your salary: ");
+        int sal = input.nextInt();
+        if (sal > 1000 && sal < 2000) {
+            sal += 100;
+            System.out.println("you salary is : " + sal);
+        } else if (sal >= 2000) {
+            sal += 200;
+            System.out.println("you salary is : " + sal);
+        } else {
+            System.out.println("Else executed");
         }
-        // 2 types of conditional statements
-        // if-then-else
-            // switch statement
-        
-        // if statement
-  
-        String name = "John", dept = "Sales";
-        double salary = 9000;
-        double com = 1000;
+        input.close();
 
-        // System.out.println(dept == "Sales");
-        
-        if(dept.equalsIgnoreCase("sales") && salary < 10000 ){
-            System.out.println("below average salary"); // conditionally executed
+        // ----------------------------------------
+        boolean b = true;
+        if (!b) {
+            System.out.println("something");
+        } else {
+            System.out.println("Nothing");
         }
-        // slse if statement
-        else if(dept.equalsIgnoreCase("IT") && salary < 70000){
-            }
-        // else statement
-        else{
-            System.out.println("above average salary"); // conditionally executed
-        }
-        System.out.println("outside condition"); // not conditionally executed
-
-        // simple if
-        if(salary >10000){
-            System.out.println("Good");
-        }else if(salary > 5000 && salary < 1000){
-            System.out.println("avg");
-        }else{
-            System.out.println("BAD");
-        }
-
-      
-
-        sc.close();
     }
 }
 

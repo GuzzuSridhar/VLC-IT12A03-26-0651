@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Conditions {
 
-              public static void main(String[] args) {
+        public static void main(String[] args) {
           //  using the user input
          Scanner input = new Scanner(System.in);
         System.out.print("Enter your salary: ");

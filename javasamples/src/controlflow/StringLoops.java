@@ -20,6 +20,7 @@ public class StringLoops {
         }while(lv < test.length());
         
         System.out.println("\n----------------------");
+        
         // for loop
         for(int i = 0; i < test.length() ; i++){
             System.out.print(test.charAt(i) + " ");

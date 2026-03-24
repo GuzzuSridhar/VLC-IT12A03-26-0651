@@ -1,6 +1,7 @@
 package basics;
 
 public class StringDemo {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         // String type (String is a class in java API)
         // creation of a String (2 ways of creation)

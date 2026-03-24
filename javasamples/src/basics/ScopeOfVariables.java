@@ -18,6 +18,7 @@ public class ScopeOfVariables {
         // variables declared inside a method are local
         // scope : within the method
         // has to be initialized before use
+        @SuppressWarnings("unused")
         int num = 10; // local variable
     }
 

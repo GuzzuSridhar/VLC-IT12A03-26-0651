@@ -1,7 +1,19 @@
 package controlflow;
 
+import java.util.Scanner;
+
 public class Conditions {
     public static void main(String[] args) {
+          //  using the user input
+        Scanner sc  = new Scanner(System.in);
+        System.out.print("Enter your Age: ");
+        int age = sc.nextInt();
+        if(age>= 18){
+            System.out.println("You can Vote");
+        }else{
+            System.out.println("You cannot Vote");
+
+        }
         // 2 types of conditional statements
         // if-then-else
             // switch statement
@@ -33,6 +45,8 @@ public class Conditions {
         }else{
             System.out.println("BAD");
         }
+
+      
 
         
     }

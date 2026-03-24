@@ -51,17 +51,19 @@ public class SwitchCase {
         }
 
         // when (patter matching) in switch case available from Java 21
-        Integer num = 0 ;
+        Integer num = -10 ;
 
-        // switch(num){
-        //     case Integer x when x < 0 ->
-        //         System.out.println("Negative Value");
-        //     case int x when x > 0 ->
-        //         System.out.println("Negative Value");
-        //     default ->
-        // System.out.println("");
+        switch(num){
+            case Integer x when x < 0 ->
+                System.out.println("Negative Value");
+            case Integer x when x > 0 ->
+                System.out.println("Positive Value");
+            case Integer x when x == 0 ->
+                System.out.println("Zero");
+            default ->
+        System.out.println("");
 
-        // }
+        }
 
         input.close();
     }

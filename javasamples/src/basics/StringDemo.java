@@ -22,6 +22,40 @@ public class StringDemo {
         System.out.println(greet.length());
         // concatenation (+)
         System.out.println("The String \""+ greet + "\" has " + greet.length()+ " characters");
+
+        // Strings are indexed (zero based) (Character arrays)
+        System.out.println(greet.charAt(0));
+        System.out.println(greet.charAt(1));
+        System.out.println(greet.charAt(2));
+        System.out.println(greet.charAt(3));
+        System.out.println(greet.charAt(4));
+        // accessing an index that is not present will result in a runtime error (Exception)
+        // System.out.println(greet.charAt(5)); // will result in an error
+
+        // case conversion
+        System.out.println(greet.toLowerCase());
+        System.out.println(greet.toUpperCase());
+
+        // substring
+        System.out.println(greet.substring(0, 4)); // end index excluded
+
+        // equality check
+        String s1 = "Hello";
+        String s2 = "hello";
+        String s3 = new String("Hello");
+
+        // case sensitive comparision
+        System.out.println(s1.equals(s3));
+        System.out.println(s2.equals(s3));
+        System.out.println(s2.equals(s1));
+        // case insensitive comparision
+        System.out.println(s1.equalsIgnoreCase(s3));
+        System.out.println(s2.equalsIgnoreCase(s3));
+        System.out.println(s2.equalsIgnoreCase(s1));
+
+
+
+
     }
 
 }

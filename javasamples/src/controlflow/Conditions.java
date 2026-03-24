@@ -3,7 +3,7 @@ package controlflow;
 import java.util.Scanner;
 
 public class Conditions {
-          @SuppressWarnings("unused")
+
               public static void main(String[] args) {
           //  using the user input
          Scanner input = new Scanner(System.in);
@@ -27,6 +27,7 @@ public class Conditions {
         } else {
             System.out.println("Nothing");
         }
+        input.close();
     }
 }
 

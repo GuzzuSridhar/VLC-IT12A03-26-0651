@@ -14,13 +14,13 @@ public class Palindrome {
             testPal += in.charAt(i);
         }
 
-        // System.out.println(testPal);
+         System.out.println(in.equalsIgnoreCase(testPal) ? in + " is a palindrome" : in + " is not a palindrome" );
 
-        boolean isGood = in.equalsIgnoreCase(testPal); 
-        if(isGood)
-            System.out.println(in + " is a palindrome");
-        else
-            System.out.println(in + " is not a palindrome");
+        // boolean isGood = in.equalsIgnoreCase(testPal); 
+        // if(isGood)
+        //     System.out.println(in + " is a palindrome");
+        // else
+        //     System.out.println(in + " is not a palindrome");
         input.close();
     }
 }

@@ -34,6 +34,35 @@ public class SwitchCase {
                 break;
         }
 
+        switch(dow){
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Working Day");
+                break;
+            case 6:
+            case 7:
+                System.out.println("Week End");
+                break;
+            default:
+                break;
+        }
+
+        // when (patter matching) in switch case available from Java 21
+        Integer num = 0 ;
+
+        // switch(num){
+        //     case Integer x when x < 0 ->
+        //         System.out.println("Negative Value");
+        //     case int x when x > 0 ->
+        //         System.out.println("Negative Value");
+        //     default ->
+        // System.out.println("");
+
+        // }
+
         input.close();
     }
 

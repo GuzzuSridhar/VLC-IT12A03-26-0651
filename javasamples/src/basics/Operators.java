@@ -50,7 +50,46 @@ public class Operators {
         System.out.println("Reminder when dividing "+ x + " with " + y + " is " + (x%y) );
         
         // Comparison operators
+        System.out.println("------------- Comparision Operators----------");
+        System.out.println(x == y); // equality check
+        System.out.println(x != y); // inequality check
+        System.out.println(x > y); // Greater than
+        System.out.println(x < y); // Lesser than
+        System.out.println(x >= y); // Greater than equals
+        System.out.println(x <= y); // Lesser than equals
+        
+        System.out.println("------------- Ternary Operator----------");
+        // expression returning boolean ? expression when true : expression when false
+        System.out.println(x==y ? x +" is equal to "+ y : x +" is not equal to "+ y);
         // logical operators
+        // compound in nature (applied on to multiple comparision operator expressions)
+        float salary = 1000f;
+        int exp = 10;
+        
+        // logical AND
+        boolean isEligible = salary > 5000 && exp > 5;  // false
+        System.out.println(isEligible);
+        System.out.println(isEligible ? "Eligible for increment" : "Not Eligible for increment");
+        
+        
+        // logical OR
+        isEligible = salary > 5000 || exp > 5; // true
+        System.out.println(isEligible);
+        System.out.println(isEligible ? "Eligible for increment" : "Not Eligible for increment");
+        // logical NOT
+
+        //Truth table for Logical AND
+        //  T   T  => T
+        //  F   T  => F
+        //  F   F  => F
+        //  T   F  => F
+        //Truth table for Logical OR
+        //  T   T  => T
+        //  F   T  => T
+        //  F   F  => F
+        //  T   F  => T
+
+
     }
 
 }

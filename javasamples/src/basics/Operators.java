@@ -15,6 +15,8 @@ public class Operators {
         //  equals (=)
         x = 30; // equals operator
         y = 40;
+
+        System.out.println("------------- Assignment Operators----------");
         System.out.println("x after assignment operator usage is: "+x);
         System.out.println( "y after assignment operator usage is: "+y);
         
@@ -30,6 +32,23 @@ public class Operators {
         System.out.println( "x after modulo equals operator usage is: "+x);
         
         // Arithmetic operators
+        System.out.println("------------- Arithmetic Operators----------");
+        x = 10;
+        y = 20;
+
+        // addition (+)
+        System.out.println("Sum of "+ x + " and " + y + " is " + (x+y) );
+        // Subtraction (-)
+        System.out.println("difference of "+ x + " and " + y + " is " + (y-x) );
+        // Multiplication (*)
+        System.out.println("Product of "+ x + " and " + y + " is " + (x*y) );
+        // Division (/)
+        System.out.println("Quotient of "+ x + " and " + y + " is " + (x/y) );
+        // Modulus (%)
+        x = 5;
+        y = 2;
+        System.out.println("Reminder when dividing "+ x + " with " + y + " is " + (x%y) );
+        
         // Comparison operators
         // logical operators
     }

@@ -3,7 +3,8 @@ package controlflow;
 import java.util.Scanner;
 
 public class Conditions {
-    public static void main(String[] args) {
+          @SuppressWarnings("unused")
+              public static void main(String[] args) {
           //  using the user input
         Scanner sc  = new Scanner(System.in);
         System.out.print("Enter your Age: ");
@@ -19,6 +20,7 @@ public class Conditions {
             // switch statement
         
         // if statement
+  
         String name = "John", dept = "Sales";
         double salary = 9000;
         double com = 1000;
@@ -48,7 +50,7 @@ public class Conditions {
 
       
 
-        
+        sc.close();
     }
 }
 

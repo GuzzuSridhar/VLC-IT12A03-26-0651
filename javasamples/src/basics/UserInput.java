@@ -18,10 +18,8 @@ public static void main(String[] args) {
     System.out.print("Enter your Salary: ");
     double sal = scan.nextDouble();
     System.out.println("Welcome! " + name + " you are " + age + " years old," + " Earning $" + sal);
-    
 
+    scan.close();
 
-
-
-}
+    }
 }

@@ -76,7 +76,10 @@ public class Operators {
         isEligible = salary > 5000 || exp > 5; // true
         System.out.println(isEligible);
         System.out.println(isEligible ? "Eligible for increment" : "Not Eligible for increment");
-        // logical NOT
+
+        // logical NOT (!)
+        System.out.println(isEligible);
+        System.out.println(!isEligible);
 
         //Truth table for Logical AND
         //  T   T  => T
@@ -88,6 +91,15 @@ public class Operators {
         //  F   T  => T
         //  F   F  => F
         //  T   F  => T
+
+
+        // bitwise logical operators
+        // & AND
+        // | OR
+
+        // bitwise shift operators
+        // >> right shift
+        // << left shift
 
 
     }

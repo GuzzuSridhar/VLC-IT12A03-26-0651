@@ -38,6 +38,12 @@ public static void main(String[] args) {
     System.out.println("The max value of Double type is "+Double.MAX_VALUE);
     System.out.println("The min value of Double type is "+Double.MIN_VALUE);
     System.out.println("--------------------------------------------");
+    System.out.println("----------------Character Datatype------------");
+    System.out.println("The # bits used for Character type are " + Character.SIZE);
+    System.out.println("The # bytes used for Character type are " + Character.BYTES);
+    System.out.println("The max value of Character type is "+Character.MAX_VALUE);
+    System.out.println("The min value of Character type is "+Character.MIN_VALUE);
+    System.out.println("--------------------------------------------");
 
 
 

@@ -8,9 +8,9 @@ public class DataTypes {
     /*  multi line comment
       this is commented too */
 
-      /* doc comments  
+      /** doc comments  
          @author : John
-      **/
+      */
 
          @SuppressWarnings("unused")
         public static void main(String[] args) {

@@ -32,8 +32,6 @@ public class Employee {
         this.dept = dept;
     }
 
-
-
     public Employee() {
     }
 
@@ -43,6 +41,7 @@ public class Employee {
 // default constructor is implicitly present
 // when a constructor is defined in the class, the default constructor is no more implicitly present.
 // can add as many constructors as needed
+// this keyword is used to refer to the current object's varable.
     
 
 }

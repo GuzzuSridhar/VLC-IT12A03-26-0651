@@ -29,7 +29,6 @@ public class Library {
         b002.yop = 2003;
         b002.genre = "Programming";
         b002.pageCount = 398;
-        
         // printing information of a book 2
         System.out.println("Title:" + b002.title);
         System.out.println("Author:" +b002.author);
@@ -43,7 +42,6 @@ public class Library {
         b003.yop = 2000;
         b003.genre = "Programming";
         b003.pageCount = 198;
-        
         // printing information of a book 3
         System.out.println("Title:" + b003.title);
         System.out.println("Author:" +b003.author);

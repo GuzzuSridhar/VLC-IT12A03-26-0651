@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.Arrays;
+
 public class MultiDimensional {
     public static void main(String[] args) {
         // literal approach
@@ -8,6 +10,14 @@ public class MultiDimensional {
             {4,5,6}  // row 2 with 3 columns
         };
 
+        // print the array using the API
+        System.out.println("------Print array with API ---------");
+        System.out.println("------Using Arrays.toString() - Not the right way ---------");
+        System.out.println(Arrays.toString(matrix));
+        System.out.println("------Using Arrays.deepToString() - the right way ---------");
+        System.out.println(Arrays.deepToString(matrix));
+
+        
         // traverse loop with traditional loop (nested loops)
         System.out.println("------Print array with traditional loop ---------");
         for (int i = 0; i < matrix.length; i++) {

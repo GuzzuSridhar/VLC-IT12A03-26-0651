@@ -86,7 +86,15 @@ public class DeclareArrays {
         //  method 2 of declaring an array
         // declare an array and initialize
         int[] age = {10,20,30};
+        // looping thru the array
+        for (int i : age) {
+            System.out.println(i);
+        }
         String employees[] = {"Bill","Alex","John"};
+        // looping thru the array
+        for (String e : employees) {
+            System.out.println(e);
+        }
 
         //  method 3 of declaring an array
         // declare an array and initialize

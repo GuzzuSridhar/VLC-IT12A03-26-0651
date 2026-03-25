@@ -20,9 +20,9 @@ public class MultiDimensional {
         
         // traverse loop with enhanced loop (nested loops)
         System.out.println("------Print array with enhanced loop ---------");
-        for (int[] row : matrix) {
-            for (int element : row) {
-                System.out.print(element+ "\t");
+        for (int[] row : matrix) { // picks the current row in the array
+            for (int element : row) { // picks elements in the current row 
+                System.out.print(element+ "\t");  // print each element in the current row with a tab space
             }
             System.out.println();
         }

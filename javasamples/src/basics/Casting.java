@@ -1,6 +1,7 @@
 package basics;
 
 public class Casting {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         // 2 types of casting
         // widening cast-> small -> large (safe)

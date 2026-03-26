@@ -8,9 +8,9 @@ public class InputError {
         int age=0;
         boolean isInputValid = false;
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter your age: ");
         while(!isInputValid){
             try{
+            System.out.print("Enter your age: ");
             age = scan.nextInt();
             isInputValid = true;
             } catch(InputMismatchException i ){

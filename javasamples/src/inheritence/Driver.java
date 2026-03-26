@@ -9,5 +9,9 @@ public class Driver {
     Child c = new Child();
     c.greet();
     c.parentMethod();
+
+    GrandChild gc = new GrandChild();
+    gc.greet();
+    gc.parentMethod();
 }
 }

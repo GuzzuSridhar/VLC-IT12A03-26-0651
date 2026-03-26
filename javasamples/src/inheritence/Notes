@@ -12,3 +12,7 @@ Method Overload
 2. Compile time polymorphism
 3. Rules
     The Number, type, order of parameters have to be different.
+
+Inheritence
+1. Java supports sing inheritence only.
+2. Java supports multi level inheritence.

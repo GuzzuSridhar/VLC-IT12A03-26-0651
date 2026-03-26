@@ -22,28 +22,28 @@ public class Exercises {
 
     }
 
-    static int vowelCount(String str){
-        // String newStr = str.
-        //     toLowerCase()
-        //     .replace("a", "")
-        //     .replace("e","")
-        //     .replace("i","")
-        //     .replace("o","")
-        //     .replace("u","");
-        // return str.length() - newStr.length();
+     int vowelCount(String str){
+        String newStr = str.
+            toLowerCase()
+            .replace("a", "")
+            .replace("e","")
+            .replace("i","")
+            .replace("o","")
+            .replace("u","");
+        return str.length() - newStr.length();
 
-        int count = 0;
-        for (int i = 0; i < str.length(); i++) {
-            if(str.toLowerCase().charAt(i)=='a' || 
-            str.toLowerCase().charAt(i)=='e' ||
-            str.toLowerCase().charAt(i)=='i' || 
-            str.toLowerCase().charAt(i)=='o'|| 
-            str.toLowerCase().charAt(i)=='u'){
-                    count++;
-            }
+        // int count = 0;
+        // for (int i = 0; i < str.length(); i++) {
+        //     if(str.toLowerCase().charAt(i)=='a' || 
+        //     str.toLowerCase().charAt(i)=='e' ||
+        //     str.toLowerCase().charAt(i)=='i' || 
+        //     str.toLowerCase().charAt(i)=='o'|| 
+        //     str.toLowerCase().charAt(i)=='u'){
+        //             count++;
+        //     }
         }
-        return count;
-    }
+        // return count;
+    // }
 
     public static void main(String[] args) {
 
@@ -62,8 +62,9 @@ public class Exercises {
         // }else{
         //     System.out.println(in + " is not a palindrome");
         // }
-
-        p.P.p("There are " + Exercises.vowelCount(in) + " Vowels in " + in  );
+        Exercises e = new Exercises();
+        // p.P.p("There are " + Exercises.vowelCount(in) + " Vowels in " + in  );
+        p.P.p("There are " + e.vowelCount(in) + " Vowels in " + in  );
 
         scan.close();
     }

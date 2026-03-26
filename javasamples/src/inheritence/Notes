@@ -1,0 +1,14 @@
+Method Overriding
+1. Done in two seperate classes
+2. Runtime polymorphism
+3. Rules 
+    The complete method signature should be the same in both classes
+    Number, types, order of parameters should be the same.
+4. Can use the annotation "@override" to check.
+
+
+Method Overload
+1. done in the same class
+2. Compile time polymorphism
+3. Rules
+    The Number, type, order of parameters have to be different.

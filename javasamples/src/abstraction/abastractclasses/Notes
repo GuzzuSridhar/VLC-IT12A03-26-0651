@@ -1,0 +1,6 @@
+Abstract Classes: The "Partial Blueprint"
+An abstract class is a class that cannot be instantiated (you can't say new Bank()). 
+It is used when you have a base object that shouldn't exist on its own but shares common code with its children.
+A class can only extend one abstract class
+
+Method Types: It can have both "Abstract Methods" (no body) and "Regular Methods" (with a body).

@@ -35,6 +35,7 @@ public class CitiBank implements Bank , Mas {
 
         // Mas m = new Mas(); // not allowed
         Mas m = new CitiBank(); // create a object of type interface
+        m.welcome("Alex");
     }
 
     @Override

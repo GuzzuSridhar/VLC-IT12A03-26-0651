@@ -4,7 +4,6 @@ public class StringTest {
 // vowels in a String   
     public static void main(String[] args) {
         // scanner input
-        java.util.Scanner scanner = new java.util.Scanner(System.in);
         String str = "Hello World";
         int count = 0;
         for (int i = 0; i < str.length(); i++) {

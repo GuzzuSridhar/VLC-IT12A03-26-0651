@@ -1,0 +1,10 @@
+Interfaces: The "Contract"
+An interface is a 100% abstract blueprint (mostly). It tells a class.
+"I don't care who you are, but if you want to work with me, you must have these capabilities."
+
+Multiple Inheritance: A class can implement many interfaces.
+
+Modern Java Update (Java 8+)
+Interfaces used to be strictly empty method signatures. Now, they are more powerful thanks to two "Big" features:
+Default Methods: You can add a method with a body inside an interface using the default keyword. This allows you to add new features to an interface without breaking the classes that already use it.
+Static Methods: Interfaces can have utility methods that belong to the interface itself, not the objects.

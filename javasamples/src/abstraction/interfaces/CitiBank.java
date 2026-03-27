@@ -31,6 +31,10 @@ public class CitiBank implements Bank , Mas {
                         + " you will earn an interest of $"
                         + intAcc
                     );
+        Mas.closeAcct(100); // access directly with Interface name
+
+        // Mas m = new Mas(); // not allowed
+        Mas m = new CitiBank(); // create a object of type interface
     }
 
     @Override
